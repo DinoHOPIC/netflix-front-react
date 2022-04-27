@@ -1,13 +1,8 @@
 import "./App.css";
 import data from "./assets/data.json";
-// console.log(data);
-// import logo from "./assets/images/logo.png";
 
 function App() {
-  {
-    data.map(data.category);
-  }
-  return;
+  return <h1>{data.map(data.category)}</h1>;
 }
 
 export default App;
